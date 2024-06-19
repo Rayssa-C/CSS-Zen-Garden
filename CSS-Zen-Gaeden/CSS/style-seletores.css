@@ -1,0 +1,73 @@
+a{
+    color: red; 
+}
+a:hover {
+    color: lime;
+}
+
+p{
+    font-family:'Arial';
+}
+
+h1 +p {
+font-weight: bold;
+}
+
+.destaque {
+    font-family: 'Arial';
+}
+
+p.destaque {
+    font-weight: bold;
+
+}
+
+strong.destaque {
+    color: red;
+}
+
+p{
+    height: 6em;
+    border-style: solid; 
+    border-width: 1px;
+    border-color:rgb(198, 231, 231);
+
+    padding: 25px;
+
+    margin:30px;
+
+    background-image: url(https://picsum.photos/600/100);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.paragrafo{
+    overflow: hidden;
+}
+
+a {
+    float:right;
+    height: 200px;
+}
+
+
+body { 
+    background-color: aquamarine;
+}
+
+
+
+strong a, em{
+    border: dashed 2px red;
+    background-color:aliceblue ;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    margin: 30px;
+
+    display: block;
+
+}
